@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome||Home</title>
+
+    <link rel="stylesheet" href="../../assets/vendor_components/bootstrap/dist/css/bootstrap.min.css">
+	
+	<!-- owlcarousel-->
+	<link rel="stylesheet" href="../../assets/vendor_components/OwlCarousel2/dist/assets/owl.carousel.css">
+	<link rel="stylesheet" href="../../assets/vendor_components/OwlCarousel2/dist/assets/owl.theme.default.css">
+	
+	<!-- theme style -->
+	<link rel="stylesheet" href="../css/style.css">
+	
+	<!-- Admin skins -->
+    <link rel="stylesheet" href="../css/skin_color.css">
+    <style>
+    .content{
+      margin-top: -240px;
+    }
+
+    .content-header{
+      position: absolute;
+      top: 60px;
+      width: 100%;
+    }
+    header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+
+@media (pointer: coarse) and (hover: none) {
+  /* header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  } */
+  header video {
+    display: block;
+  }
+
+  
+}
+
+@media screen and (max-width:768px){
+   .manage{
+     display: none;
+   }
+
+   .content{
+     margin-top: -40px;
+   }
+
+   .main-header{
+     position: relative;
+   }
+
+}
+
+    </style>
+</head>
+<body class="hold-transition dark-skin sidebar-mini theme-classic">
+  <div class="wrapper">
+    <header class="main-header">
+      <!-- Logo -->
+      <a href="index.html" class="logo">
+        <!-- mini logo -->
+      <div class="logo-mini">
+        <span class="light-logo"><img src="../../images/logo-dark.png" alt="logo"></span>
+        <span class="dark-logo"><img src="../../images/logo-dark.png" alt="logo"></span>
+      </div>
+        <!-- logo-->
+        <div class="logo-lg">
+          <span class="light-logo"><img src="../../images/hey.png" alt="logo"></span>
+      </div>
+      </a>
+      <!-- Header Navbar -->
+      <nav class="navbar navbar-static-top">
+        <!-- Sidebar toggle button-->
+      <div class="ml-20">
+        <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+        <i class="ti-align-left"></i>
+        </a>
+        
+        <a href="#" data-provide="fullscreen" class="sidebar-toggle" title="Full Screen">
+        <i class="mdi mdi-crop-free"></i>
+        </a> 
+      
+      </div>
+      
+        <div class="navbar-custom-menu r-side">
+          <ul class="nav navbar-nav">
+        <!-- full Screen -->
+          <li class="search-bar">		  
+          <div class="lookup lookup-circle lookup-right">
+             <input type="text" name="s">
+          </div>
+        </li>			
+        <!-- Messages -->
+        <li class="dropdown messages-menu">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Messages">
+          <i class="mdi mdi-email"></i>
+        </a>
+        <ul class="dropdown-menu animated bounceIn">
+  
+          <li class="header">
+          <div class="p-20">
+            <div class="flexbox">
+              <div>
+                <h4 class="mb-0 mt-0">Messages</h4>
+              </div>
+              <div>
+                <a href="#" class="text-danger">Clear All</a>
+              </div>
+            </div>
+          </div>
+          </li>
+          <li>
+          <!-- inner menu: contains the actual data -->
+          <ul class="menu sm-scrol">
+            <li><!-- start message -->
+            <a href="#">
+              <div class="pull-left">
+              <img src="../../images/user2-160x160.jpg" class="rounded-circle" alt="User Image">
+              </div>
+              <div class="mail-contnet">
+               <h4>
+                Lorem Ipsum
+                <small><i class="fa fa-clock-o"></i> 15 mins</small>
+               </h4>
+               <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+              </div>
+            </a>
+            </li>
+            <!-- end message -->
+            <li>
+            <a href="#">
+              <div class="pull-left">
+              <img src="../../images/user3-128x128.jpg" class="rounded-circle" alt="User Image">
+              </div>
+              <div class="mail-contnet">
+               <h4>
+                Nullam tempor
+                <small><i class="fa fa-clock-o"></i> 4 hours</small>
+               </h4>
+               <span>Curabitur facilisis erat quis metus congue viverra.</span>
+              </div>
+            </a>
+            </li>
+            <li>
+            <a href="#">
+              <div class="pull-left">
+              <img src="../../images/user4-128x128.jpg" class="rounded-circle" alt="User Image">
+              </div>
+              <div class="mail-contnet">
+               <h4>
+                Proin venenatis
+                <small><i class="fa fa-clock-o"></i> Today</small>
+               </h4>
+               <span>Vestibulum nec ligula nec quam sodales rutrum sed luctus.</span>
+              </div>
+            </a>
+            </li>
+            <li>
+            <a href="#">
+              <div class="pull-left">
+              <img src="../../images/user3-128x128.jpg" class="rounded-circle" alt="User Image">
+              </div>
+              <div class="mail-contnet">
+               <h4>
+                Praesent suscipit
+              <small><i class="fa fa-clock-o"></i> Yesterday</small>
+               </h4>
+               <span>Curabitur quis risus aliquet, luctus arcu nec, venenatis neque.</span>
+              </div>
+            </a>
+            </li>
+            <li>
+            <a href="#">
+              <div class="pull-left">
+              <img src="../../images/user4-128x128.jpg" class="rounded-circle" alt="User Image">
+              </div>
+              <div class="mail-contnet">
+               <h4>
+                Donec tempor
+                <small><i class="fa fa-clock-o"></i> 2 days</small>
+               </h4>
+               <span>Praesent vitae tellus eget nibh lacinia pretium.</span>
+              </div>
+  
+            </a>
+            </li>
+          </ul>
+          </li>
+          <li class="footer">				  
+            <a href="#">See all e-Mails</a>
+          </li>
+        </ul>
+        </li>
+        <!-- Notifications -->
+        <li class="dropdown notifications-menu">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Notifications">
+          <i class="mdi mdi-bell"></i>
+        </a>
+        <ul class="dropdown-menu animated bounceIn">
+  
+          <li class="header">
+          <div class="p-20">
+            <div class="flexbox">
+              <div>
+                <h4 class="mb-0 mt-0">Notifications</h4>
+              </div>
+              <div>
+                <a href="#" class="text-danger">Clear All</a>
+              </div>
+            </div>
+          </div>
+          </li>
+  
+          <li>
+          <!-- inner menu: contains the actual data -->
+          <ul class="menu sm-scrol">
+            <li>
+            <a href="#">
+              <i class="fa fa-users text-info"></i> Curabitur id eros quis nunc suscipit blandit.
+            </a>
+            </li>
+            <li>
+            <a href="#">
+              <i class="fa fa-warning text-warning"></i> Duis malesuada justo eu sapien elementum, in semper diam posuere.
+            </a>
+            </li>
+            <li>
+            <a href="#">
+              <i class="fa fa-users text-danger"></i> Donec at nisi sit amet tortor commodo porttitor pretium a erat.
+            </a>
+            </li>
+            <li>
+            <a href="#">
+              <i class="fa fa-shopping-cart text-success"></i> In gravida mauris et nisi
+            </a>
+            </li>
+            <li>
+            <a href="#">
+              <i class="fa fa-user text-danger"></i> Praesent eu lacus in libero dictum fermentum.
+            </a>
+            </li>
+            <li>
+            <a href="#">
+              <i class="fa fa-user text-primary"></i> Nunc fringilla lorem 
+            </a>
+            </li>
+            <li>
+            <a href="#">
+              <i class="fa fa-user text-success"></i> Nullam euismod dolor ut quam interdum, at scelerisque ipsum imperdiet.
+            </a>
+            </li>
+          </ul>
+          </li>
+          <li class="footer">
+            <a href="#">View all</a>
+          </li>
+        </ul>
+        </li>	
+        
+        <!-- User Account-->
+            <li class="dropdown user user-menu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="User">
+                <img src="../../images/avatar/7.jpg" class="user-image rounded-circle" alt="User Image">
+              </a>
+              <ul class="dropdown-menu animated flipInX">
+                <!-- User image -->
+                <li class="user-header bg-img" style="background-image: url(../../images/user-info.jpg)" data-overlay="3">
+            <div class="flexbox align-self-center">					  
+              <img src="../../images/avatar/7.jpg" class="float-left rounded-circle" alt="User Image">					  
+            <h4 class="user-name align-self-center">
+              <span>Samuel Brus</span>
+              <small>samuel@gmail.com</small>
+            </h4>
+            </div>
+                </li>
+                <!-- Menu Body -->
+                <li class="user-body">
+              <a class="dropdown-item" href="javascript:void(0)"><i class="ion ion-person"></i> My Profile</a>
+            <a class="dropdown-item" href="javascript:void(0)"><i class="ion ion-bag"></i> My Balance</a>
+            <a class="dropdown-item" href="javascript:void(0)"><i class="ion ion-email-unread"></i> Inbox</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="javascript:void(0)"><i class="ion ion-settings"></i> Account Setting</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="javascript:void(0)"><i class="ion-log-out"></i> Logout</a>
+            <div class="dropdown-divider"></div>
+            <div class="p-10"><a href="javascript:void(0)" class="btn btn-sm btn-rounded btn-success">View Profile</a></div>
+                </li>
+              </ul>
+            </li>	
+  
+              <!-- Control Sidebar Toggle Button -->
+              <li>
+                <a href="#" data-toggle="control-sidebar" title="Setting"><i class="fa fa-cog fa-spin"></i></a>
+              </li>
+        
+          </ul>
+        </div>
+      </nav>
+    </header>
+		<!-- Content Header (Page header) -->
+		<div class="content-header">
+			<div class="d-flex align-items-center">
+				<div class="mr-auto">
+					<h3 class="page-title">VARIENT MOB</h3>
+					<div class="d-inline-block align-items-center">
+						<nav>
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="#"><i class="mdi mdi-home-outline"></i></a></li>
+								<li class="breadcrumb-item" aria-current="page">All Access</li>
+								<li class="breadcrumb-item active" aria-current="page">View</li>
+							</ol>
+						</nav>
+					</div>
+				</div>
+				<div class="right-title">
+					<div class="dropdown">
+						<button class="btn btn-outline dropdown-toggle no-caret" type="button" data-toggle="dropdown"><i class="mdi mdi-dots-horizontal"></i></button>
+						<div class="dropdown-menu dropdown-menu-right">
+						  <a class="dropdown-item" href="#"><i class="mdi mdi-share"></i>Activity</a>
+						  <a class="dropdown-item" href="#"><i class="mdi mdi-email"></i>Messages</a>
+						  <a class="dropdown-item" href="#"><i class="mdi mdi-share"></i>Activity</a>
+						  <a class="dropdown-item" href="#"><i class="mdi mdi-email"></i>Messages</a>
+						  <a class="dropdown-item" href="#"><i class="mdi mdi-share"></i>Activity</a>
+						  <a class="dropdown-item" href="#"><i class="mdi mdi-email"></i>Messages</a>
+						  <a class="dropdown-item" href="#"><i class="mdi mdi-help-circle-outline"></i>FAQ</a>
+						  <a class="dropdown-item" href="#"><i class="mdi mdi-settings"></i>Support</a>
+						  <div class="dropdown-divider"></div>
+						</div>
+					  </div>
+				</div>
+			</div>
+    </div>
+		<!-- Main content -->
+		<section class="content">
+			<div>
+				<div>
+					<div class="col-12 col-xl-12">
+						<header>
+                            <div class="overlay"></div>
+                            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                              <source src="https://static.videezy.com/system/resources/previews/000/038/555/original/370Z_stkbluereflectionclean333tunnelmotions.mp4" type="video/mp4">
+                            </video>
+                            <div class="container h-100">
+                                <div class="box-header with-border">
+                                    <h1 class="box-title">AULTIMATE MOB100</h1>
+                                    <!-- <ul class="box-controls pull-right">
+                                      <li><a class="box-btn-close" href="#"></a></li>
+                                      <li><a class="box-btn-fullscreen" href="#"></a></li>
+                                    </ul> -->
+                                </div>
+                                <div class="box-body mt-90">
+                                    <span class="badge" data-overlay="10">New</span>
+                                    <h2 class="font-weight-200 mb-0">Contrary to popular belief</h2>
+                                    <p>
+                                        Dicta dignissimos adipisci officiis quam esse hic assumenda tempora eligendi a.
+                                        sint magnam, consequatur nisi eligendi modi?
+                                    </p>
+                                    <ul class="flexbox flex-justified mt-50">
+                                        <li>
+                                          <p class="font-size-20 text-success mb-0 font-weight-300"> <i class="fa fa-caret-up text-success"></i> +1.952% 
+                                              <small class="font-size-12">41,425.81</small></p>
+                                          <p> QWDR REF</p>
+                                        </li>
+            
+                                        <li>
+                                          <p class="font-size-20 text-danger mb-0 font-weight-300"> <i class="fa fa-caret-down text-danger"></i> -0.952% 
+                                              <small class="font-size-12">54,425.81</small></p>
+                                          <p> WSDF THG</p>
+                                        </li>
+            
+                                        <li>
+                                          <p class="font-size-20 text-success mb-0 font-weight-300"> <i class="fa fa-caret-up text-success"></i> +1.12% 
+                                              <small class="font-size-12">85,425.81</small></p>
+                                          <p> AERV HGT</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                          </header>
+					</div>
+				</div>
+      </div>
+      <div class="manage">
+      <div class="row">
+      <div class="col-xl-8 col-12">
+				<div class="box">
+					<div class="box-header with-border">
+						<h4 class="box-title">Recent News Update</h4>
+					</div>
+					<div class="box-body p-0">
+					  <div class="media-list media-list-hover media-list-divided">
+
+						<a class="media media-single" href="#">
+						  <img class="w-80 rounded" src="../../images/gallery/thumb/2.jpg" alt="...">
+						  <div class="media-body">
+							<h6>In mattis mi ut posuere consectetur.</h6>
+							<small class="text-fader">By Hunter</small>
+						  </div>
+						</a>
+
+						<a class="media media-single" href="#">
+						  <img class="w-80 rounded" src="../../images/gallery/thumb/3.jpg" alt="...">
+						  <div class="media-body">
+							<h6>Proin iaculis eros non odio ornare efficitur.</h6>
+							<small class="text-fader">By Jordan</small>
+						  </div>
+            </a>
+            
+            <a class="media media-single" href="#">
+						  <img class="w-80 rounded" src="../../images/gallery/thumb/2.jpg" alt="...">
+						  <div class="media-body">
+							<h6>In mattis mi ut posuere consectetur.</h6>
+							<small class="text-fader">By Hunter</small>
+						  </div>
+						</a>
+
+						<a class="media media-single" href="#">
+						  <img class="w-80 rounded" src="../../images/gallery/thumb/4.jpg" alt="...">
+						  <div class="media-body">
+							<h6>Morbi ullamcorper mauris nec gravida molestie.</h6>
+							<small class="text-fader">By Owen</small>
+						  </div>
+            </a>
+            
+            <a class="media media-single" href="#">
+						  <img class="w-80 rounded" src="../../images/gallery/thumb/3.jpg" alt="...">
+						  <div class="media-body">
+							<h6>Proin iaculis eros non odio ornare efficitur.</h6>
+							<small class="text-fader">By Jordan</small>
+						  </div>
+            </a>
+					  </div>
+					</div>
+				  <div class="text-center bt-1 border-light p-2">
+					<a class="text-uppercase d-block font-size-12" href="#">See all recent news</a>
+				  </div>
+				</div>
+        </div>
+        
+        <div class="col-xl-4 col-12">
+          <div class="box">
+            <div class="box-header with-border">
+              <h4 class="box-title">Recent User Update</h4>
+            </div>
+            <div class="box-body p-0">
+              <div class="media-list media-list-hover">
+              <div class="media">
+                <a class="avatar avatar-lg status-success" href="#">
+                <img src="../../images/avatar/1.jpg" alt="...">
+                </a>
+                <div class="media-body">
+                <p class="font-size-16">
+                  <a class="hover-primary" href="#"><strong>Tyler</strong></a>
+                </p>
+                <p>Praesent tristique diam vitae est aliquet tempor sed ut erat.</p>
+                  <span>Just now</span>
+                </div>
+              </div>
+  
+              <div class="media">
+                <a class="avatar avatar-lg status-danger" href="#">
+                <img src="../../images/avatar/2.jpg" alt="...">
+                </a>
+                <div class="media-body">
+                <p class="font-size-16">
+                  <a class="hover-primary" href="#"><strong>Luke</strong></a>
+                </p>
+                <p>Cras tempor diam nec metus ullamcorper, ut ultrices lacus convallis.</p>
+                  <span>33 min ago</span>
+                </div>
+              </div>
+  
+              <div class="media">
+                <a class="avatar avatar-lg status-warning" href="#">
+                <img src="../../images/avatar/3.jpg" alt="...">
+                </a>
+                <div class="media-body">
+                <p class="font-size-16">
+                  <a class="hover-primary" href="#"><strong>Evan</strong></a>
+                </p>
+                <p>In posuere tortor vel metus faucibus, eleifend blandit lorem condimentum.</p>
+                  <span>42 min ago</span>
+                </div>
+              </div>
+  
+              <div class="media">
+                <a class="avatar avatar-lg status-primary" href="#">
+                <img src="../../images/avatar/4.jpg" alt="...">
+                </a>
+                <div class="media-body">
+                <p class="font-size-16">
+                  <a class="hover-primary" href="#"><strong>Evan</strong></a>
+                </p>
+                <p>In posuere tortor vel metus faucibus, eleifend blandit lorem condimentum.</p>
+                  <span>42 min ago</span>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+        </div>
+        </div>
+
+        <div class="row manage1">
+          <div class="col-xl-6 col-lg-12">
+            <!-- Box Comment -->
+            <div class="box box-widget">
+            <div class="box-header with-border">
+              <div class="user-block">
+              <img class="avatar" src="../../images/user3-128x128.jpg" alt="User Image">
+              <span class="username"><a href="#">John Lenon</a></span>
+              <span class="description">Shared publicly - 00:30 AM Yesterday</span>
+              </div>
+              <!-- /.user-block -->
+              <ul class="box-controls pull-right">
+                <li><a class="box-btn-close" href="#"></a></li>
+                <li><a class="box-btn-slide" href="#"></a></li>
+                <li><a class="box-btn-fullscreen" href="#"></a></li>
+                <li><a class="" data-toggle="tooltip" title="" data-widget="chat-pane-toggle" data-original-title="Contacts"><i class="ti-comments"></i></a></li>
+              </ul>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <img class="img-fluid" src="../../images/photo1.png" alt="Photo">
+    
+              <p>Featured Hydroflora Pots Garden & Outdoors</p>
+              <button type="button" class="btn btn-rounded btn-sm btn-primary"><i class="fa fa-share"></i> Share</button>
+              <button type="button" class="btn btn-rounded btn-sm btn-success"><i class="fa fa-thumbs-o-up"></i> Like</button>
+              <span class="pull-right text-muted">15.56k likes - 250 comments</span>
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer box-comments">
+              <div class="box-comment">
+              <!-- User image -->
+              <img class="avatar" src="../../images/user3-128x128.jpg" alt="User Image">
+    
+              <div class="comment-text">
+                  <span class="username">
+                  Ruhi Doe
+                  <span class="text-muted pull-right">1:03 AM Today</span>
+                  </span><!-- /.username -->
+                Titudin venenatis ipsum ac feugiat. Vestibulum ullamcorper quam.
+              </div>
+              <!-- /.comment-text -->
+              </div>
+              <!-- /.box-comment -->
+              <div class="box-comment">
+              <!-- User image -->
+              <img class="avatar" src="../../images/user4-128x128.jpg" alt="User Image">
+    
+              <div class="comment-text">
+                  <span class="username">
+                  Amayra Lusi
+                  <span class="text-muted pull-right">11:03 PM Today</span>
+                  </span><!-- /.username -->
+                Titudin venenatis ipsum ac feugiat. Vestibulum ullamcorper quam.
+              </div>
+              <!-- /.comment-text -->
+              </div>
+              <!-- /.box-comment -->
+            </div>
+            <!-- /.box-footer -->
+            <div class="box-footer">
+              <form action="#" method="post">
+              <div class="input-group">
+                <input type="text" name="message" placeholder="Make Reaction ..." class="form-control">
+                  <div class="input-group-addon">
+                  <div class="align-self-end gap-items">
+                    <span class="publisher-btn file-group">
+                    <i class="fa fa-paperclip file-browser"></i>
+                    <input type="file">
+                    </span>
+                    <a class="publisher-btn" href="#"><i class="fa fa-smile-o"></i></a>
+                    <a class="publisher-btn" href="#"><i class="fa fa-paper-plane"></i></a>
+                  </div>
+                  </div>
+              </div>
+              </form>
+            </div>
+            <!-- /.box-footer -->
+            </div>
+            <!-- /.box -->
+          </div>
+          <!-- /.col -->
+          <div class="col-xl-6 col-lg-12">
+            <!-- Box Comment -->
+            <div class="box box-widget">
+            <div class="box-header with-border">
+              <div class="user-block">
+              <img class="avatar" src="../../images/user1-128x128.jpg" alt="User Image">
+              <span class="username"><a href="#">KevinFedrick</a></span>
+              <span class="description">Shared publicly - Recently</span>
+              </div>
+              <!-- /.user-block -->
+              <ul class="box-controls pull-right">
+                <li><a class="box-btn-close" href="#"></a></li>
+                <li><a class="box-btn-slide" href="#"></a></li>
+                <li><a class="box-btn-fullscreen" href="#"></a></li>
+                <li><a class="" data-toggle="tooltip" title="" data-widget="chat-pane-toggle" data-original-title="Contacts"><i class="ti-comments"></i></a></li>
+              </ul>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <img class="img-fluid" src="../../images/photo2.png" alt="Photo">
+    
+              <p>Featured Hydroflora Pots Garden & Outdoors</p>
+              <button type="button" class="btn btn-rounded btn-sm btn-primary"><i class="fa fa-share"></i> Share</button>
+              <button type="button" class="btn btn-rounded btn-sm btn-success"><i class="fa fa-thumbs-o-up"></i> Like</button>
+              <span class="pull-right text-muted">15 likes - 2 comments</span>
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer box-comments">
+              <div class="box-comment">
+              <!-- User image -->
+              <img class="avatar" src="../../images/user3-128x128.jpg" alt="User Image">
+    
+              <div class="comment-text">
+                  <span class="username">
+                  Ruhi Doe
+                  <span class="text-muted pull-right">1:03 AM Today</span>
+                  </span><!-- /.username -->
+                Titudin venenatis ipsum ac feugiat. Vestibulum ullamcorper quam.
+              </div>
+              <!-- /.comment-text -->
+              </div>
+              <!-- /.box-comment -->
+              <div class="box-comment">
+              <!-- User image -->
+              <img class="avatar" src="../../images/user4-128x128.jpg" alt="User Image">
+    
+              <div class="comment-text">
+                  <span class="username">
+                  Amayra Lusi
+                  <span class="text-muted pull-right">11:03 PM Today</span>
+                  </span><!-- /.username -->
+                Titudin venenatis ipsum ac feugiat. Vestibulum ullamcorper quam.
+              </div>
+              <!-- /.comment-text -->
+              </div>
+              <!-- /.box-comment -->
+            </div>
+            <!-- /.box-footer -->
+            <div class="box-footer">
+              <form action="#" method="post">
+              <div class="input-group">
+                <input type="text" name="message" placeholder="Make Reaction ..." class="form-control">
+                  <div class="input-group-addon">
+                  <div class="align-self-end gap-items">
+                    <span class="publisher-btn file-group">
+                    <i class="fa fa-paperclip file-browser"></i>
+                    <input type="file">
+                    </span>
+                    <a class="publisher-btn" href="#"><i class="fa fa-smile-o"></i></a>
+                    <a class="publisher-btn" href="#"><i class="fa fa-paper-plane"></i></a>
+                  </div>
+                  </div>
+              </div>
+              </form>
+            </div>
+            <!-- /.box-footer -->
+            </div>
+            <!-- /.box -->
+          </div>
+          <!-- /.col -->
+         </div>
+
+          <div class="row">
+
+            <div class="col-xl-6 col-lg-12">
+              <!-- Box Comment -->
+              <div class="box box-widget">
+              <div class="box-header with-border">
+                <div class="user-block">
+                <img class="avatar" src="../../images/user4-128x128.jpg" alt="User Image">
+                <span class="username"><a href="#">John Doe</a></span>
+                <span class="description">Shared publicly - 8:30 AM Today</span>
+                </div>
+                <!-- /.user-block -->              
+                <ul class="box-controls pull-right">
+                  <li><a class="box-btn-close" href="#"></a></li>
+                  <li><a class="box-btn-slide" href="#"></a></li>
+                  <li><a class="box-btn-fullscreen" href="#"></a></li>
+                  <li><a class="" data-toggle="tooltip" title="" data-widget="chat-pane-toggle" data-original-title="Contacts"><i class="ti-comments"></i></a></li>
+                </ul>
+                <!-- /.box-tools -->
+              </div>
+              <!-- /.box-header -->
+              <div class="box-body">
+                <!-- post text -->
+                <p>Lorem ipsum dolor sit ametetur adipisicing elit, sed do eiusmod tempor incididunt adipisicing elit, sed do eiusmod tempor incididunLorem ipsum dolor sit ametetur adipisicing elit, sed do eiusmod tempor incididuntt</p>
+      
+                <p>Lorem ipsum dolor sit ametetur adipisicing elit, sed do eiusmod tempor incididunt adipisicing elit, sed do eiusmod tempor incididunLorem ipsum dolor sit ametetur adipisicing elit, sed do eiusmod tempor incididuntt</p>
+      
+                <!-- Attachment -->
+                <div class="attachment-block clearfix">
+                <img class="attachment-img" src="../../images/photo1.png" alt="Attachment Image">
+      
+                <div class="attachment-pushed">
+                  <h5 class="attachment-heading"><a href="http://www.lipsum.com/">Featured Hydroflora Pots Garden & Outdoors</a></h5>
+      
+                  <div class="attachment-text">
+                  Lorem Ipsum is simply dummy text of the printing & type setting industry... <a href="#">more</a>
+                  </div>
+                  <!-- /.attachment-text -->
+                </div>
+                <!-- /.attachment-pushed -->
+                </div>
+                <!-- /.attachment-block -->
+      
+                <!-- Social sharing buttons -->
+                <button type="button" class="btn btn-rounded btn-sm btn-primary"><i class="fa fa-share"></i> Share</button>
+                <button type="button" class="btn btn-rounded btn-sm btn-success"><i class="fa fa-thumbs-o-up"></i> Like</button>
+                <span class="pull-right text-muted">84 likes - 2 comments</span>
+              </div>
+              <!-- /.box-body -->
+              <div class="box-footer box-comments">
+                <div class="box-comment">
+                <!-- User image -->
+                <img class="avatar" src="../../images/user3-128x128.jpg" alt="User Image">
+      
+                <div class="comment-text">
+                    <span class="username">
+                    Amayra Lusi
+                    <span class="text-muted pull-right">9:03 PM Today</span>
+                    </span><!-- /.username -->
+                 Titudin venenatis ipsum ac feugiat. Vestibulum ullamcorper quam.
+                </div>
+                <!-- /.comment-text -->
+                </div>
+                <!-- /.box-comment -->
+                <div class="box-comment">
+                <!-- User image -->
+                <img class="avatar" src="../../images/user5-128x128.jpg" alt="User Image">
+      
+                <div class="comment-text">
+                    <span class="username">
+                    Amayra Lusi
+                    <span class="text-muted pull-right">10:03 AM Today</span>
+                    </span><!-- /.username -->
+                  Titudin venenatis ipsum ac feugiat. Vestibulum ullamcorper quam.
+                </div>
+                <!-- /.comment-text -->
+                </div>
+                <!-- /.box-comment -->
+              </div>
+              <!-- /.box-footer -->
+              <div class="box-footer">
+                <form action="#" method="post">
+                <div class="input-group">
+                  <input type="text" name="message" placeholder="Make Reaction ..." class="form-control">
+                    <div class="input-group-addon">
+                    <div class="align-self-end gap-items">
+                      <span class="publisher-btn file-group">
+                      <i class="fa fa-paperclip file-browser"></i>
+                      <input type="file">
+                      </span>
+                      <a class="publisher-btn" href="#"><i class="fa fa-smile-o"></i></a>
+                      <a class="publisher-btn" href="#"><i class="fa fa-paper-plane"></i></a>
+                    </div>
+                    </div>
+                </div>
+                </form>
+              </div>
+              <!-- /.box-footer -->
+              </div>
+              <!-- /.box -->
+            </div>
+            <!-- /.col -->
+  
+            <div class="col-xl-6 col-lg-12">
+              <!-- Box Comment -->
+              <div class="box box-widget">
+              <div class="box-header with-border">
+                <div class="user-block">
+                <img class="avatar" src="../../images/user5-128x128.jpg" alt="User Image">
+                <span class="username"><a href="#">Mathew Lyke</a></span>
+                <span class="description">Shared publicly - 8:30 AM Today</span>
+                </div>
+                <!-- /.user-block -->              
+                <ul class="box-controls pull-right">
+                  <li><a class="box-btn-close" href="#"></a></li>
+                  <li><a class="box-btn-slide" href="#"></a></li>
+                  <li><a class="box-btn-fullscreen" href="#"></a></li>
+                  <li><a class="" data-toggle="tooltip" title="" data-widget="chat-pane-toggle" data-original-title="Contacts"><i class="ti-comments"></i></a></li>
+                </ul>
+                <!-- /.box-tools -->
+              </div>
+              <!-- /.box-header -->
+              <div class="box-body">
+                <!-- post text -->
+                <p>Lorem ipsum dolor sit ametetur adipisicing elit, sed do eiusmod tempor incididunt adipisicing elit, sed do eiusmod tempor incididunLorem ipsum dolor sit ametetur adipisicing elit, sed do eiusmod tempor incididuntt</p>
+      
+                <p>Lorem ipsum dolor sit ametetur adipisicing elit, sed do eiusmod tempor incididunt adipisicing elit, sed do eiusmod tempor incididunLorem ipsum dolor sit ametetur adipisicing elit, sed do eiusmod tempor incididuntt</p>
+      
+                <!-- Attachment -->
+                <div class="attachment-block clearfix">
+                <img class="attachment-img" src="../../images/photo1.png" alt="Attachment Image">
+      
+                <div class="attachment-pushed">
+                  <h5 class="attachment-heading"><a href="http://www.lipsum.com/">Featured Hydroflora Pots Garden & Outdoors</a></h5>
+      
+                  <div class="attachment-text">
+                  Lorem Ipsum is simply dummy text of the printing & type setting industry... <a href="#">more</a>
+                  </div>
+                  <!-- /.attachment-text -->
+                </div>
+                <!-- /.attachment-pushed -->
+                </div>
+                <!-- /.attachment-block -->
+      
+                <!-- Social sharing buttons -->
+                <button type="button" class="btn btn-rounded btn-sm btn-primary"><i class="fa fa-share"></i> Share</button>
+                <button type="button" class="btn btn-rounded btn-sm btn-success"><i class="fa fa-thumbs-o-up"></i> Like</button>
+                <span class="pull-right text-muted">84 likes - 2 comments</span>
+              </div>
+              <!-- /.box-body -->
+              <div class="box-footer box-comments">
+                <div class="box-comment">
+                <!-- User image -->
+                <img class="avatar" src="../../images/user3-128x128.jpg" alt="User Image">
+      
+                <div class="comment-text">
+                    <span class="username">
+                    Amayra Lusi
+                    <span class="text-muted pull-right">9:03 PM Today</span>
+                    </span><!-- /.username -->
+                 Titudin venenatis ipsum ac feugiat. Vestibulum ullamcorper quam.
+                </div>
+                <!-- /.comment-text -->
+                </div>
+                <!-- /.box-comment -->
+                <div class="box-comment">
+                <!-- User image -->
+                <img class="avatar" src="../../images/user5-128x128.jpg" alt="User Image">
+      
+                <div class="comment-text">
+                    <span class="username">
+                    Amayra Lusi
+                    <span class="text-muted pull-right">10:03 AM Today</span>
+                    </span><!-- /.username -->
+                  Titudin venenatis ipsum ac feugiat. Vestibulum ullamcorper quam.
+                </div>
+                <!-- /.comment-text -->
+                </div>
+                <!-- /.box-comment -->
+              </div>
+              <!-- /.box-footer -->
+              <div class="box-footer">
+                <form action="#" method="post">
+                <div class="input-group">
+                  <input type="text" name="message" placeholder="Make Reaction ..." class="form-control">
+                    <div class="input-group-addon">
+                    <div class="align-self-end gap-items">
+                      <span class="publisher-btn file-group">
+                      <i class="fa fa-paperclip file-browser"></i>
+                      <input type="file">
+                      </span>
+                      <a class="publisher-btn" href="#"><i class="fa fa-smile-o"></i></a>
+                      <a class="publisher-btn" href="#"><i class="fa fa-paper-plane"></i></a>
+                    </div>
+                    </div>
+                </div>
+                </form>
+              </div>
+              <!-- /.box-footer -->
+              </div>
+              <!-- /.box -->
+            </div>
+            </div>
+
+            <div class="col-lg-12">
+              <div class="box">
+                <div class="media bb-1 border-fade">
+                <img class="avatar avatar-lg" src="../../images/avatar/5.jpg" alt="...">
+                <div class="media-body">
+                  <p>
+                  <strong>Ronit Roy</strong>
+                  <time class="float-right text-fade" datetime="2017">24 min ago</time>
+                  </p>
+                  <p><small>Designer</small></p>
+                </div>
+                </div>
+      
+                <div class="box-body">
+                <p>Best memory from the beach...</p>
+                </div>
+      
+                <div class="row gap-1" data-provide="photoswipe">
+                <a class="col-6" href="#">
+                  <img src="../../images/gallery/thumb/12.jpg" alt="...">
+                </a>
+      
+                <a class="col-6" href="#">
+                  <img src="../../images/gallery/thumb/10.jpg" alt="...">
+                </a>
+                </div>
+      
+                <div class="box-body py-12">
+                <div class="gap-items-4">
+                  <a class="text-fade hover-light" href="#">
+                  <i class="fa fa-thumbs-up mr-1"></i> 541
+                  </a>
+                  <a class="text-fade hover-light" href="#">
+                  <i class="fa fa-comment mr-1"></i> 254
+                  </a>
+                  <a class="text-fade hover-light" href="#">
+                  <i class="fa fa-share-alt mr-1"></i> 30
+                  </a>
+                </div>
+                </div>
+      
+                <div class="media-list media-list-divided bg-lighter">
+                <div class="media">
+                  <a class="avatar" href="#">
+                  <img src="../../images/avatar/7.jpg" alt="...">
+                  </a>
+                  <div class="media-body">
+                  <p>
+                    <a href="#"><strong>Tony stark</strong></a>
+                    <time class="float-right text-fade" datetime="2017-07-14 20:00">25 Jan</time>
+                  </p>
+                  <p>Continually drive user friendly solutions through performance based infomediaries.</p>
+                  </div>
+                </div>
+                </div>
+      
+                <form class="publisher bg-transparent bt-1 border-fade">
+                <img class="avatar avatar-sm" src="../../images/avatar/5.jpg" alt="...">
+                <input class="publisher-input" type="text" placeholder="Add Comment">
+                <a class="publisher-btn" href="#"><i class="fa fa-smile-o"></i></a>
+                <span class="publisher-btn file-group">
+                  <i class="fa fa-camera file-browser"></i>
+                  <input type="file">
+                </span>
+                </form>
+      
+              </div>
+              </div>
+      
+    
+<footer></footer>
+
+<aside class="control-sidebar control-sidebar-light">
+	  
+	<div class="rpanel-title"><span class="pull-right btn btn-circle btn-danger"><i class="ion ion-close text-white" data-toggle="control-sidebar"></i></span> </div>  <!-- Create the tabs -->
+    <ul class="nav nav-tabs control-sidebar-tabs">
+      <li class="nav-item"><a href="#control-sidebar-home-tab" data-toggle="tab">Chat</a></li>
+      <li class="nav-item"><a href="#control-sidebar-settings-tab" data-toggle="tab">Todo</a></li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <!-- Home tab content -->
+      <div class="tab-pane" id="control-sidebar-home-tab">
+          <div class="flexbox">
+			<a href="javascript:void(0)" class="text-grey">
+				<i class="ti-more"></i>
+			</a>	
+			<p>Users</p>
+			<a href="javascript:void(0)" class="text-right text-grey"><i class="ti-plus"></i></a>
+		  </div>
+		  <div class="lookup lookup-sm lookup-right d-none d-lg-block">
+			<input type="text" name="s" placeholder="Search" class="w-p100">
+		  </div>
+          <div class="media-list media-list-hover mt-20">
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-success" href="#">
+				<img src="../../images/avatar/1.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>Tyler</strong></a>
+				</p>
+				<p>Praesent tristique diam...</p>
+				  <span>Just now</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-danger" href="#">
+				<img src="../../images/avatar/2.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>Luke</strong></a>
+				</p>
+				<p>Cras tempor diam ...</p>
+				  <span>33 min ago</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-warning" href="#">
+				<img src="../../images/avatar/3.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>Evan</strong></a>
+				</p>
+				<p>In posuere tortor vel...</p>
+				  <span>42 min ago</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-primary" href="#">
+				<img src="../../images/avatar/4.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>Evan</strong></a>
+				</p>
+				<p>In posuere tortor vel...</p>
+				  <span>42 min ago</span>
+			  </div>
+			</div>			
+			
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-success" href="#">
+				<img src="../../images/avatar/1.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>Tyler</strong></a>
+				</p>
+				<p>Praesent tristique diam...</p>
+				  <span>Just now</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-danger" href="#">
+				<img src="../../images/avatar/2.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>Luke</strong></a>
+				</p>
+				<p>Cras tempor diam ...</p>
+				  <span>33 min ago</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-warning" href="#">
+				<img src="../../images/avatar/3.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>Evan</strong></a>
+				</p>
+				<p>In posuere tortor vel...</p>
+				  <span>42 min ago</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-primary" href="#">
+				<img src="../../images/avatar/4.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>Evan</strong></a>
+				</p>
+				<p>In posuere tortor vel...</p>
+				  <span>42 min ago</span>
+			  </div>
+			</div>
+			  
+		  </div>
+
+      </div>
+      <!-- /.tab-pane -->
+      <!-- Settings tab content -->
+      <div class="tab-pane" id="control-sidebar-settings-tab">
+          <div class="flexbox">
+			<a href="javascript:void(0)" class="text-grey">
+				<i class="ti-more"></i>
+			</a>	
+			<p>Todo List</p>
+			<a href="javascript:void(0)" class="text-right text-grey"><i class="ti-plus"></i></a>
+		  </div>
+        <ul class="todo-list mt-20">
+			<li class="py-15 px-5 by-1">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_51" class="filled-in">
+			  <label for="basic_checkbox_51" class="mb-0 h-15"></label>
+			  <!-- todo text -->
+			  <span class="text-line">Nulla vitae purus</span>
+			  <!-- Emphasis label -->
+			  <small class="badge bg-danger"><i class="fa fa-clock-o"></i> 2 mins</small>
+			  <!-- General tools such as edit or delete-->
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_52" class="filled-in">
+			  <label for="basic_checkbox_52" class="mb-0 h-15"></label>
+			  <span class="text-line">Phasellus interdum</span>
+			  <small class="badge bg-info"><i class="fa fa-clock-o"></i> 4 hours</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5 by-1">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_53" class="filled-in">
+			  <label for="basic_checkbox_53" class="mb-0 h-15"></label>
+			  <span class="text-line">Quisque sodales</span>
+			  <small class="badge bg-warning"><i class="fa fa-clock-o"></i> 1 day</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_54" class="filled-in">
+			  <label for="basic_checkbox_54" class="mb-0 h-15"></label>
+			  <span class="text-line">Proin nec mi porta</span>
+			  <small class="badge bg-success"><i class="fa fa-clock-o"></i> 3 days</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5 by-1">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_55" class="filled-in">
+			  <label for="basic_checkbox_55" class="mb-0 h-15"></label>
+			  <span class="text-line">Maecenas scelerisque</span>
+			  <small class="badge bg-primary"><i class="fa fa-clock-o"></i> 1 week</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_56" class="filled-in">
+			  <label for="basic_checkbox_56" class="mb-0 h-15"></label>
+			  <span class="text-line">Vivamus nec orci</span>
+			  <small class="badge bg-info"><i class="fa fa-clock-o"></i> 1 month</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5 by-1">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_57" class="filled-in">
+			  <label for="basic_checkbox_57" class="mb-0 h-15"></label>
+			  <!-- todo text -->
+			  <span class="text-line">Nulla vitae purus</span>
+			  <!-- Emphasis label -->
+			  <small class="badge bg-danger"><i class="fa fa-clock-o"></i> 2 mins</small>
+			  <!-- General tools such as edit or delete-->
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_58" class="filled-in">
+			  <label for="basic_checkbox_58" class="mb-0 h-15"></label>
+			  <span class="text-line">Phasellus interdum</span>
+			  <small class="badge bg-info"><i class="fa fa-clock-o"></i> 4 hours</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5 by-1">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_59" class="filled-in">
+			  <label for="basic_checkbox_59" class="mb-0 h-15"></label>
+			  <span class="text-line">Quisque sodales</span>
+			  <small class="badge bg-warning"><i class="fa fa-clock-o"></i> 1 day</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_60" class="filled-in">
+			  <label for="basic_checkbox_60" class="mb-0 h-15"></label>
+			  <span class="text-line">Proin nec mi porta</span>
+			  <small class="badge bg-success"><i class="fa fa-clock-o"></i> 3 days</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+		  </ul>
+      </div>
+      <!-- /.tab-pane -->
+    </div>
+  </aside>
+  <!-- /.control-sidebar -->
+
+
+
+            <script src="../../assets/vendor_components/jquery-3.3.1/jquery-3.3.1.js"></script>
+	
+            <!-- fullscreen -->
+            <script src="../../assets/vendor_components/screenfull/screenfull.js"></script>
+            
+            <!-- popper -->
+            <script src="../../assets/vendor_components/popper/dist/popper.min.js"></script>
+            
+            <!-- Bootstrap 4.0-->
+            <script src="../../assets/vendor_components/bootstrap/dist/js/bootstrap.min.js"></script>
+            
+            <!-- SlimScroll -->
+            <script src="../../assets/vendor_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+            <script src="../../assets/vendor_components/perfect-scrollbar-master/perfect-scrollbar.jquery.min.js"></script>
+            
+            <!-- owlcarousel -->
+            <script src="../../assets/vendor_components/OwlCarousel2/dist/owl.carousel.js"></script>
+            
+            <!-- FastClick -->
+            <script src="../../assets/vendor_components/fastclick/lib/fastclick.js"></script>
+            
+            <!-- CrmX Admin App -->
+            <script src="../js/template.js"></script>
+            
+            <!-- CrmX Admin for demo purposes -->
+            <script src="../js/demo.js"></script>
+            
+            <script src="../js/pages/widget-blog.js"></script>
+</body>
+</html>
